@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AntsActivity">
+
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/ic_action_map"
+        android:title="Map"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/ic_action_reset"
+        android:title="Reset"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_stop"
+        android:icon="@drawable/ic_action_stop"
+        android:title="Stop"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_start"
+        android:icon="@drawable/ic_action_play"
+        android:title="Start"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/maps"
+        android:enabled="true"
+        android:title="Maps"
+        android:visible="true">
+        <menu>
+
+
+            <item
+                android:id="@+id/map_western_sahara"
+                android:title="Western Sahara"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/map_qatar"
+                android:title="Qatar"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/ants"
+        android:enabled="true"
+        android:title="Ants"
+        android:visible="true">
+        <menu>
+
+
+            <item
+                android:id="@+id/ant_none"
+                android:title="Ant None"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/ant_random"
+                android:title="Ant Random"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/ant_greedy"
+                android:title="Ant Greedy"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/ant_smart"
+                android:title="Ant Smart"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/ant_interview"
+                android:title="Ant Interview"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>
